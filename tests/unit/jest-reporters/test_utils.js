@@ -2,7 +2,7 @@ import { filterFileNamesFromGitStatusOutput } from 'tests/jest-reporters/utils';
 
 describe(__filename, () => {
   describe('_filterFileNamesFromGitStatusOutput', () => {
-    const _filterFileNamesFromGitStatusOutput = (lines = []) => {
+    const filterGitStatusOutputFiles  = (lines = []) => {
       return filterFileNamesFromGitStatusOutput(lines.join('\n'));
     };
 
