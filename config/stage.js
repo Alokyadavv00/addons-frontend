@@ -1,4 +1,4 @@
-// Config for the stage server.
+
 import { analyticsHost, apiStageHost, baseUrlStage, ga4ConnectHost, ga4Host, mediaPath, serverStaticPath, stageDomain, staticPath } from './lib/shared';
 
 module.exports = {
@@ -7,7 +7,7 @@ module.exports = {
 
   cookieDomain: `.${stageDomain}`,
 
-  // Content security policy.
+ 
   CSP: {
     useDefaults: false,
     directives: {
