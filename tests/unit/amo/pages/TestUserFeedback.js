@@ -1,5 +1,4 @@
 /* global window */
-import config from 'config';
 import userEvent from '@testing-library/user-event';
 import { waitFor } from '@testing-library/react';
 
@@ -9,7 +8,7 @@ import {
 } from 'amo/reducers/userAbuseReports';
 import {
   CATEGORY_FEEDBACK_SPAM,
-  CATEGORY_OTHER,
+  CATEGORY_SOMETHING_ELSE,
 } from 'amo/components/FeedbackForm';
 import { CLIENT_APP_FIREFOX } from 'amo/constants';
 import {
@@ -26,22 +25,12 @@ import {
   createFakeErrorHandler,
   dispatchClientMetadata,
   dispatchSignInActionsWithStore,
-  getMockConfig,
   renderPage as defaultRender,
   screen,
 } from 'tests/unit/helpers';
 
-jest.mock('config');
-
 describe(__filename, () => {
-  let fakeConfig;
-
   beforeEach(() => {
-    fakeConfig = getMockConfig({ enableFeatureFeedbackForm: true });
-    config.get.mockImplementation((key) => {
-      return fakeConfig[key];
-    });
-
     window.scroll = jest.fn();
   });
 
@@ -150,16 +139,6 @@ describe(__filename, () => {
         expect(extractId({ match: { params: { userId } } })).toEqual('8');
       });
     });
-  });
-
-  it('renders a 404 page when enableFeatureFeedbackForm is false', () => {
-    fakeConfig = { ...fakeConfig, enableFeatureFeedbackForm: false };
-
-    render();
-
-    expect(
-      screen.getByText('Oops! We can’t find that page'),
-    ).toBeInTheDocument();
   });
 
   it('renders a 404 page when the API returned a 404', () => {
@@ -371,7 +350,7 @@ describe(__filename, () => {
         reporterEmail: signedInEmail,
         reporterName: signedInName,
         message: '',
-        reason: CATEGORY_OTHER,
+        reason: CATEGORY_SOMETHING_ELSE,
         auth: true,
       }),
     );
@@ -407,7 +386,7 @@ describe(__filename, () => {
         reporterEmail: '',
         reporterName: '',
         message: '',
-        reason: CATEGORY_OTHER,
+        reason: CATEGORY_SOMETHING_ELSE,
         auth: false,
       }),
     );

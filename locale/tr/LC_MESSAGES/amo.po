@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amo\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-12-01 20:47+0000\n"
-"PO-Revision-Date: 2023-12-02 09:47+0000\n"
+"POT-Creation-Date: 2024-01-09 16:55+0000\n"
+"PO-Revision-Date: 2024-01-10 23:57+0000\n"
 "Last-Translator: Grk <gu0townkg@relay.firefox.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -34,6 +34,7 @@ msgstr "Yeni koleksiyon oluştur"
 msgid "Added to %(collectionName)s"
 msgstr "%(collectionName)s koleksiyonuna eklendi"
 
+#. This is a header for a list meaning Add to [some collection name]
 # This is a header for a list meaning Add to [some collection name]
 #: src/amo/components/AddAddonToCollection/index.js:269
 msgid "Add to…"
@@ -43,30 +44,37 @@ msgstr "Koleksiyona ekle…"
 msgid "Add to collection"
 msgstr "Koleksiyona ekle"
 
+#. This action allows a reviewer to perform a content review of an add-on.
 #: src/amo/components/AddonAdminLinks/index.js:104
 msgid "Content review add-on"
 msgstr "İçerik inceleme eklentisi"
 
+#. This action allows a reviewer to perform a review of a theme.
 #: src/amo/components/AddonAdminLinks/index.js:112
 msgid "Review theme"
 msgstr "Temayı incele"
 
+#. This action allows a reviewer to perform a review of an add-on's code.
 #: src/amo/components/AddonAdminLinks/index.js:114
 msgid "Review add-on code"
 msgstr "Eklenti kodunu incele"
 
+#. This is a list of links to administrative functions.
 #: src/amo/components/AddonAdminLinks/index.js:134
 msgid "Admin Links"
 msgstr "Yönetici bağlantıları"
 
+#. This action allows the add-on developer or an admin to edit an add-on's properties.
 #: src/amo/components/AddonAdminLinks/index.js:76 src/amo/components/AddonAuthorLinks/index.js:51
 msgid "Edit add-on"
 msgstr "Eklentiyi düzenle"
 
+#. This action allows an admin to maintain an add-on.
 #: src/amo/components/AddonAdminLinks/index.js:90
 msgid "Admin add-on"
 msgstr "Yönetici eklentisi"
 
+#. This is a list of links to Developer functions.
 #: src/amo/components/AddonAuthorLinks/index.js:62
 msgid "Author Links"
 msgstr "Yazar bağlantıları"
@@ -109,21 +117,25 @@ msgstr "Eklentiyle ilgili geri bildirim gönder"
 msgid "Report the add-on because it's illegal or incompliant"
 msgstr "Eklentinin yasa dışı veya uygunsuz olduğunu bildir"
 
+#. please keep the fox emoji next to "Firefox".
 # please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:102
 msgid "%(addonName)s – Get this Extension for 🦊 Firefox (%(locale)s)"
 msgstr "%(addonName)s - Bu 🦊 Firefox (%(locale)s) uzantısını yükle"
 
+#. please keep the fox emoji next to "Firefox".
 # please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:107
 msgid "%(addonName)s – Get this Language Pack for 🦊 Firefox (%(locale)s)"
 msgstr "%(addonName)s - Bu 🦊 Firefox (%(locale)s) dil paketini yükleyin"
 
+#. please keep the fox emoji next to "Firefox".
 # please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:112
 msgid "%(addonName)s – Get this Theme for 🦊 Firefox (%(locale)s)"
 msgstr "%(addonName)s - Bu 🦊 Firefox (%(locale)s) temasını yükleyin"
 
+#. please keep the fox emoji next to "Firefox".
 # please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:117
 msgid "%(addonName)s – Get this Add-on for 🦊 Firefox (%(locale)s)"
@@ -133,26 +145,32 @@ msgstr "%(addonName)s - Bu 🦊 Firefox (%(locale)s) eklentisini yükleyin"
 msgid "Download %(addonName)s for Firefox. %(summary)s"
 msgstr "Firefox için %(addonName)s eklentisini indir. %(summary)s"
 
+#. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:69
 msgid "%(addonName)s – Get this Dictionary for 🦊 Firefox Android (%(locale)s)"
 msgstr "%(addonName)s - Bu 🦊 Firefox Android (%(locale)s) sözlüğünü yükleyin"
 
+#. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:74
 msgid "%(addonName)s – Get this Extension for 🦊 Firefox Android (%(locale)s)"
 msgstr "%(addonName)s - Bu 🦊 Firefox Android (%(locale)s) uzantısını yükle"
 
+#. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:79
 msgid "%(addonName)s – Get this Language Pack for 🦊 Firefox Android (%(locale)s)"
 msgstr "%(addonName)s - Bu 🦊 Firefox Android (%(locale)s) dil paketini yükleyin"
 
+#. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:84
 msgid "%(addonName)s – Get this Theme for 🦊 Firefox Android (%(locale)s)"
 msgstr "%(addonName)s - Bu 🦊 Firefox Android (%(locale)s) temasını yükleyin"
 
+#. please keep the fox emoji next to "Firefox Android".
 #: src/amo/components/AddonHead/index.js:90
 msgid "%(addonName)s – Get this Add-on for 🦊 Firefox Android (%(locale)s)"
 msgstr "%(addonName)s - Bu 🦊 Firefox Android (%(locale)s) eklentisini yükleyin"
 
+#. please keep the fox emoji next to "Firefox".
 # please keep the fox emoji next to "Firefox".
 #: src/amo/components/AddonHead/index.js:97
 msgid "%(addonName)s – Get this Dictionary for 🦊 Firefox (%(locale)s)"
@@ -200,87 +218,88 @@ msgstr "İnceleme yok"
 msgid "Used by"
 msgstr "Kullanan"
 
-#: src/amo/components/AddonMoreInfo/index.js:102 src/amo/pages/UserProfile/index.js:356 src/amo/pages/UserProfile/index.js:358 src/amo/pages/UserProfileEdit/index.js:708
+#: src/amo/components/AddonMoreInfo/index.js:103 src/amo/pages/UserProfile/index.js:356 src/amo/pages/UserProfile/index.js:359 src/amo/pages/UserProfileEdit/index.js:708
 msgid "Homepage"
 msgstr "Ana sayfa"
 
-#: src/amo/components/AddonMoreInfo/index.js:118
+#: src/amo/components/AddonMoreInfo/index.js:120
 msgid "Support site"
 msgstr "Destek sitesi"
 
-#: src/amo/components/AddonMoreInfo/index.js:132
+#: src/amo/components/AddonMoreInfo/index.js:134
 msgid "Support Email"
 msgstr "Destek e-postası"
 
-#: src/amo/components/AddonMoreInfo/index.js:150
+#: src/amo/components/AddonMoreInfo/index.js:152
 msgid "Visit stats dashboard"
 msgstr "İstatistik panosuna git"
 
-#: src/amo/components/AddonMoreInfo/index.js:169
+#: src/amo/components/AddonMoreInfo/index.js:171
 msgid "Custom License"
 msgstr "Özel Lisans"
 
-#: src/amo/components/AddonMoreInfo/index.js:214
+#. This will output, in English: "2 months ago (Dec 12 2016)"
+#: src/amo/components/AddonMoreInfo/index.js:215
 msgid "%(timeFromNow)s (%(date)s)"
 msgstr "%(timeFromNow)s (%(date)s)"
 
-#: src/amo/components/AddonMoreInfo/index.js:230
+#: src/amo/components/AddonMoreInfo/index.js:231
 msgid "Read the privacy policy for this add-on"
 msgstr "Bu eklentinin gizlilik ilkelerini okuyun"
 
-#: src/amo/components/AddonMoreInfo/index.js:241
+#: src/amo/components/AddonMoreInfo/index.js:242
 msgid "Read the license agreement for this add-on"
 msgstr "Bu eklentinin lisans anlaşmasını okuyun"
 
-#: src/amo/components/AddonMoreInfo/index.js:254
+#: src/amo/components/AddonMoreInfo/index.js:255
 msgid "See all versions"
 msgstr "Tüm sürümleri göster"
 
-#: src/amo/components/AddonMoreInfo/index.js:301
+#: src/amo/components/AddonMoreInfo/index.js:302
 msgid "Add-on Links"
 msgstr "Eklenti bağlantıları"
 
-#: src/amo/components/AddonMoreInfo/index.js:313
+#: src/amo/components/AddonMoreInfo/index.js:314
 msgid "Version"
 msgstr "Sürüm"
 
-#: src/amo/components/AddonMoreInfo/index.js:321
+#: src/amo/components/AddonMoreInfo/index.js:322
 msgid "Size"
 msgstr "Boyut"
 
-#: src/amo/components/AddonMoreInfo/index.js:329 src/amo/components/CollectionDetails/index.js:87 src/amo/pages/CollectionFeedback/index.js:149
+#: src/amo/components/AddonMoreInfo/index.js:330 src/amo/components/CollectionDetails/index.js:87 src/amo/pages/CollectionFeedback/index.js:149
 msgid "Last updated"
 msgstr "Son güncelleme"
 
-#: src/amo/components/AddonMoreInfo/index.js:337
+#: src/amo/components/AddonMoreInfo/index.js:338
 msgid "Related Categories"
 msgstr "İlgili kategoriler"
 
-#: src/amo/components/AddonMoreInfo/index.js:347
+#: src/amo/components/AddonMoreInfo/index.js:348
 msgid "License"
 msgstr "Lisans"
 
-#: src/amo/components/AddonMoreInfo/index.js:355
+#: src/amo/components/AddonMoreInfo/index.js:356
 msgid "Privacy Policy"
 msgstr "Gizlilik ilkeleri"
 
-#: src/amo/components/AddonMoreInfo/index.js:363
+#: src/amo/components/AddonMoreInfo/index.js:364
 msgid "End-User License Agreement"
 msgstr "Son Kullanıcı Lisans Anlaşması"
 
-#: src/amo/components/AddonMoreInfo/index.js:371
+#: src/amo/components/AddonMoreInfo/index.js:372
 msgid "Version History"
 msgstr "Sürüm geçmişi"
 
-#: src/amo/components/AddonMoreInfo/index.js:381
+#: src/amo/components/AddonMoreInfo/index.js:382
 msgid "Usage Statistics"
 msgstr "Kullanım istatistikleri"
 
-#: src/amo/components/AddonMoreInfo/index.js:389
+#: src/amo/components/AddonMoreInfo/index.js:390
 msgid "Tags"
 msgstr "Etiketler"
 
-#: src/amo/components/AddonMoreInfo/index.js:405
+#: src/amo/components/AddonMoreInfo/index.js:406
 msgid "More information"
 msgstr "Daha fazla bilgi"
 
@@ -365,31 +384,34 @@ msgstr "Yanıt güncelleniyor"
 msgid "Publishing reply"
 msgstr "Yanıt yayımlanıyor"
 
+#. Example in English: "posted last week"
 #: src/amo/components/AddonReviewCard/index.js:368
 msgid "posted %(linkStart)s%(timestamp)s%(linkEnd)s"
 msgstr "gönderilme: %(linkStart)s%(timestamp)s%(linkEnd)s"
 
+#. Example in English: "by UserName123, last week"
 #: src/amo/components/AddonReviewCard/index.js:371
 msgid "by %(linkUserProfileStart)s%(authorName)s%(linkUserProfileEnd)s, %(linkStart)s%(timestamp)s%(linkEnd)s"
 msgstr "yazan: %(linkUserProfileStart)s%(authorName)s%(linkUserProfileEnd)s, %(linkStart)s%(timestamp)s%(linkEnd)s"
 
-#: src/amo/components/AddonReviewCard/index.js:374
+#. Example in English: "by UserName123, last week"
+#: src/amo/components/AddonReviewCard/index.js:375
 msgid "by %(authorName)s, %(linkStart)s%(timestamp)s%(linkEnd)s"
 msgstr "yazan: %(authorName)s, %(linkStart)s%(timestamp)s%(linkEnd)s"
 
-#: src/amo/components/AddonReviewCard/index.js:489
+#: src/amo/components/AddonReviewCard/index.js:490
 msgid "Deleting…"
 msgstr "Siliniyor…"
 
-#: src/amo/components/AddonReviewCard/index.js:520
+#: src/amo/components/AddonReviewCard/index.js:521
 msgid "Reply to this review"
 msgstr "Bu incelemeyi yanıtla"
 
-#: src/amo/components/AddonReviewCard/index.js:550
+#: src/amo/components/AddonReviewCard/index.js:551
 msgid "This rating or review has been deleted. You are only seeing it because of elevated permissions."
 msgstr "Bu puan veya inceleme silinmiş. Ek izinleriniz nedeniyle bunu görebiliyorsunuz."
 
-#: src/amo/components/AddonReviewCard/index.js:596
+#: src/amo/components/AddonReviewCard/index.js:597
 msgid "Write a review"
 msgstr "İnceleme yazın"
 
@@ -545,17 +567,20 @@ msgstr "Diğer resim, fotoğraf ve medya uzantıları"
 msgid "Add-on icon"
 msgstr "Eklenti simgesi"
 
+#. roundedAverage is a number rounded to one digit, such as 4.5 in English or ٤٫٧ in Arabic.
 #: src/amo/components/AddonSummaryCard/index.js:78
 msgid "%(rating)s Star out of 5"
 msgid_plural "%(rating)s Stars out of 5"
 msgstr[0] "5 üzerinden %(rating)s puan"
 msgstr[1] "5 üzerinden %(rating)s puan"
 
+#. A comma, used in a list of authors: a1, a2, a3.
 # A comma, used in a list of authors: a1, a2, a3.
 #: src/amo/components/AddonTitle/index.js:49
 msgid ","
 msgstr ","
 
+#. Example: add-on "by" some authors
 # Example: add-on "by" some authors
 #: src/amo/components/AddonTitle/index.js:93 src/amo/components/AddonTitle/index.js:98
 msgid "by"
@@ -955,203 +980,175 @@ msgstr "%(userName)s adlı kullanıcının incelemesi"
 msgid "The review was not found."
 msgstr "İnceleme bulunamadı."
 
-#: src/amo/components/FeedbackForm/index.js:100
+#: src/amo/components/FeedbackForm/index.js:102
 msgid "Example: Features are slow, hard to use, or don’t work; parts of websites won't load or look unusual."
 msgstr "Örnek: Özellikler yavaş, kullanması zor veya çalışmıyor; sitelerin bazı kısımları yüklenmiyor veya bozuk görünüyor."
 
-#: src/amo/components/FeedbackForm/index.js:105
+#: src/amo/components/FeedbackForm/index.js:107
 msgid "It’s spam"
 msgstr "Spam"
 
-#: src/amo/components/FeedbackForm/index.js:106
+#: src/amo/components/FeedbackForm/index.js:108
 msgid "Example: The listing advertises unrelated products or services."
 msgstr ""
 
-#: src/amo/components/FeedbackForm/index.js:114
+#: src/amo/components/FeedbackForm/index.js:116
 msgid "It violates Add-on Policies"
 msgstr "Eklenti politikalarını ihlal ediyor"
 
-#: src/amo/components/FeedbackForm/index.js:115
+#: src/amo/components/FeedbackForm/index.js:117
 msgid "Example: It compromised my data without informing or asking me, or it changed my search engine or home page without informing or asking me."
 msgstr "Örnek: Bana haber vermeden veya sormadan verilerimi tehlikeye attı veya arama motorumu veya ana sayfamı değiştirdi."
 
-#: src/amo/components/FeedbackForm/index.js:121
+#: src/amo/components/FeedbackForm/index.js:123
 msgid "It contains hateful, violent, deceptive, or other inappropriate content"
 msgstr "Nefret dolu, şiddet içeren, aldatıcı veya başka uygunsuz içerik barındırıyor"
 
-#: src/amo/components/FeedbackForm/index.js:123
+#: src/amo/components/FeedbackForm/index.js:125
 msgid "Example: It contains racist imagery."
 msgstr "Örnek: Irkçı görüntüler içeriyor."
 
-#: src/amo/components/FeedbackForm/index.js:127
+#: src/amo/components/FeedbackForm/index.js:129
 msgid "It violates the law or contains content that violates the law"
 msgstr "Yasaları ihlal ediyor veya yasaları ihlal eden içerik barındırıyor"
 
-#: src/amo/components/FeedbackForm/index.js:130
+#: src/amo/components/FeedbackForm/index.js:132
 msgid "Example: Copyright or Trademark Infringement, Fraud."
 msgstr "Örnek: Telif hakkı veya ticari marka ihlali, dolandırıcılık."
 
-#: src/amo/components/FeedbackForm/index.js:136
+#: src/amo/components/FeedbackForm/index.js:138
 msgid "Something else"
 msgstr "Başka bir şey"
 
-#: src/amo/components/FeedbackForm/index.js:137
+#: src/amo/components/FeedbackForm/index.js:139
 msgid "Anything that doesn’t fit into the other categories."
 msgstr "Diğer kategorilere uymayan herhangi bir şey."
 
-#: src/amo/components/FeedbackForm/index.js:149
+#: src/amo/components/FeedbackForm/index.js:151
 msgid "Select place"
 msgstr "Yer seçin"
 
-#: src/amo/components/FeedbackForm/index.js:151
+#: src/amo/components/FeedbackForm/index.js:153
 msgid "On the add-on's page on this website"
 msgstr "Bu web sitesindeki eklenti sayfasında"
 
-#: src/amo/components/FeedbackForm/index.js:154
+#: src/amo/components/FeedbackForm/index.js:156
 msgid "Inside the add-on"
 msgstr "Eklentinin içinde"
 
-#: src/amo/components/FeedbackForm/index.js:155
+#: src/amo/components/FeedbackForm/index.js:157
 msgid "Both locations"
 msgstr "Her iki yerde de"
 
-#: src/amo/components/FeedbackForm/index.js:250
+#: src/amo/components/FeedbackForm/index.js:252
 msgid "Report submitted"
 msgstr "Rapor gönderildi"
 
-#: src/amo/components/FeedbackForm/index.js:252
+#: src/amo/components/FeedbackForm/index.js:254
 msgid "We have received your report. Thanks for letting us know."
 msgstr "Raporunuzu aldık. Bize bildirdiğiniz için teşekkür ederiz."
 
-#: src/amo/components/FeedbackForm/index.js:339
+#: src/amo/components/FeedbackForm/index.js:341
 msgid "Submitting your report…"
 msgstr "Raporunuz gönderiliyor…"
 
-#: src/amo/components/FeedbackForm/index.js:340
+#: src/amo/components/FeedbackForm/index.js:342
 msgid "Submit report"
 msgstr "Raporu gönder"
 
-#: src/amo/components/FeedbackForm/index.js:359
+#: src/amo/components/FeedbackForm/index.js:361
 msgid "Provide more information"
 msgstr "Daha fazla bilgi verin"
 
-#: src/amo/components/FeedbackForm/index.js:369
+#: src/amo/components/FeedbackForm/index.js:371
 msgid "Place of the violation %(spanStart)s(optional)%(spanEnd)s"
 msgstr "İhlalin yaşandığı yer %(spanStart)s(isteğe bağlı)%(spanEnd)s"
 
-#: src/amo/components/FeedbackForm/index.js:397
+#: src/amo/components/FeedbackForm/index.js:399
 msgid "Provide more details %(spanStart)s(optional)%(spanEnd)s"
 msgstr "Daha fazla bilgi verin %(spanStart)s(isteğe bağlı)%(spanEnd)s"
 
-#: src/amo/components/FeedbackForm/index.js:414
+#: src/amo/components/FeedbackForm/index.js:416
 msgid ""
 "Please provide any additional information that may help us to understand your report (including which policy you believe has been violated). While this information is not required, failure to "
 "include it may prevent us from addressing the reported content."
 msgstr ""
 
-#: src/amo/components/FeedbackForm/index.js:424
+#: src/amo/components/FeedbackForm/index.js:426
 msgid "Contact information"
 msgstr "İletişim bilgileri"
 
-#: src/amo/components/FeedbackForm/index.js:440
+#: src/amo/components/FeedbackForm/index.js:442
 msgid "File report anonymously"
 msgstr "Anonim olarak bildir"
 
-#: src/amo/components/FeedbackForm/index.js:443
+#: src/amo/components/FeedbackForm/index.js:445
 msgid "Filing an anonymous report will prevent us from communicating with you about the report’s status, or about any options for appeal."
 msgstr ""
 
-#: src/amo/components/FeedbackForm/index.js:464
+#: src/amo/components/FeedbackForm/index.js:466
 msgid "Your name %(spanStart)s(optional)%(spanEnd)s"
 msgstr "Adınız %(spanStart)s(isteğe bağlı)%(spanEnd)s"
 
-#: src/amo/components/FeedbackForm/index.js:467
+#: src/amo/components/FeedbackForm/index.js:469
 msgid "Your name %(spanStart)s(required)%(spanEnd)s"
 msgstr "Adınız %(spanStart)s(zorunlu)%(spanEnd)s"
 
-#: src/amo/components/FeedbackForm/index.js:504
+#: src/amo/components/FeedbackForm/index.js:506
 msgid "Your email address %(spanStart)s(optional)%(spanEnd)s"
 msgstr "E-posta adresiniz %(spanStart)s(isteğe bağlı)%(spanEnd)s"
 
-#: src/amo/components/FeedbackForm/index.js:507
+#: src/amo/components/FeedbackForm/index.js:509
 msgid "Your email address %(spanStart)s(required)%(spanEnd)s"
 msgstr "E-posta adresiniz %(spanStart)s(zorunlu)%(spanEnd)s"
 
-#: src/amo/components/FeedbackForm/index.js:551
+#: src/amo/components/FeedbackForm/index.js:553
 msgid "By submitting this report I certify, under penalty of perjury, that the allegations it contains are complete and accurate, to the best of my knowledge."
 msgstr ""
 
-#: src/amo/components/FeedbackForm/index.js:97
+#: src/amo/components/FeedbackForm/index.js:99
 msgid "It doesn’t work, breaks websites, or slows down Firefox"
 msgstr "Çalışmıyor, web sitelerini bozuyor veya Firefox’u yavaşlatıyor"
 
-#: src/amo/components/FlagReviewMenu/index.js:101
-msgid "Flagged as spam"
-msgstr "Spam olarak işaretlendi"
-
-#: src/amo/components/FlagReviewMenu/index.js:103 src/amo/components/FlagReviewMenu/index.js:128 src/amo/components/FlagReviewMenu/index.js:149
-msgid "Login required"
-msgstr "Giriş yapmanız gerekiyor"
-
-#: src/amo/components/FlagReviewMenu/index.js:118
-msgid "Misplaced bug report or support request"
-msgstr "Yanlış yere konmuş hata raporu veya destek isteği"
-
-#: src/amo/components/FlagReviewMenu/index.js:119
-msgid "This is a bug report or support request"
-msgstr "Bu bir hata raporu veya destek isteği"
-
-#: src/amo/components/FlagReviewMenu/index.js:123
-msgid "Flagged as misplaced bug report or support request"
-msgstr "Yanlış yere konmuş hata raporu veya destek isteği olarak işaretlendi"
-
-#: src/amo/components/FlagReviewMenu/index.js:125
-msgid "Flagged as a bug report or support request"
-msgstr "Hata raporu veya destek isteği olarak işaretlendi"
-
-#: src/amo/components/FlagReviewMenu/index.js:138
+#: src/amo/components/FlagReviewMenu/index.js:100
 msgid "Content that is illegal or that violates AMO's content policies"
 msgstr "Yasa dışı veya AMO’nun içerik politikalarını ihlal eden içerik"
 
-#: src/amo/components/FlagReviewMenu/index.js:145
-msgid "This contains inappropriate language"
-msgstr "Uygunsuz bir dil içeriyor"
-
-#: src/amo/components/FlagReviewMenu/index.js:146
-msgid "Flagged for inappropriate language"
-msgstr "Uygunsuz dil olarak işaretlendi"
-
-#: src/amo/components/FlagReviewMenu/index.js:162
+#: src/amo/components/FlagReviewMenu/index.js:112
 msgid "Flagged"
 msgstr "Rapor edildi"
 
-#: src/amo/components/FlagReviewMenu/index.js:162
+#: src/amo/components/FlagReviewMenu/index.js:112
 msgid "Flag"
 msgstr "Rapor et"
 
-#: src/amo/components/FlagReviewMenu/index.js:165
+#: src/amo/components/FlagReviewMenu/index.js:115
 msgid "Flag this developer response"
 msgstr "Bu geliştirici yanıtını rapor et"
 
-#: src/amo/components/FlagReviewMenu/index.js:166
+#: src/amo/components/FlagReviewMenu/index.js:116
 msgid "Flag this review"
 msgstr "Bu incelemeyi rapor et"
 
-#: src/amo/components/FlagReviewMenu/index.js:84
-msgid "Log in to flag this response"
-msgstr "Bu yanıtı rapor etmek için giriş yapın"
-
-#: src/amo/components/FlagReviewMenu/index.js:85
-msgid "Log in to flag this review"
-msgstr "Bu incelemeyi rapor etmek için giriş yapın"
-
-#: src/amo/components/FlagReviewMenu/index.js:98
+#: src/amo/components/FlagReviewMenu/index.js:70
 msgid "Spam"
 msgstr "Spam"
 
-#: src/amo/components/FlagReviewMenu/index.js:99
-msgid "This is spam"
-msgstr "Spam"
+#: src/amo/components/FlagReviewMenu/index.js:71
+msgid "Flagged as spam"
+msgstr "Spam olarak işaretlendi"
+
+#: src/amo/components/FlagReviewMenu/index.js:73 src/amo/components/FlagReviewMenu/index.js:91
+msgid "Login required"
+msgstr "Giriş yapmanız gerekiyor"
+
+#: src/amo/components/FlagReviewMenu/index.js:86
+msgid "Misplaced bug report or support request"
+msgstr "Yanlış yere konmuş hata raporu veya destek isteği"
+
+#: src/amo/components/FlagReviewMenu/index.js:87
+msgid "Flagged as misplaced bug report or support request"
+msgstr "Yanlış yere konmuş hata raporu veya destek isteği olarak işaretlendi"
 
 #: src/amo/components/Footer/index.js:102
 msgid "Developer Policies"
@@ -1227,48 +1224,48 @@ msgstr "Uzantı Atölyesi"
 msgid "Developer Hub"
 msgstr "Geliştirici Merkezi"
 
-#: src/amo/components/GetFirefoxBanner/index.js:108
+#: src/amo/components/GetFirefoxBanner/index.js:123
 msgid "To use these add-ons, you'll need to %(downloadLinkStart)sdownload Firefox%(downloadLinkEnd)s."
 msgstr "Bu eklentileri kullanmak için %(downloadLinkStart)sFirefox’u indirmeniz%(downloadLinkEnd)s gerekiyor."
 
-#: src/amo/components/GetFirefoxBanner/index.js:110 src/amo/components/WrongPlatformWarning/index.js:142
+#: src/amo/components/GetFirefoxBanner/index.js:125 src/amo/components/WrongPlatformWarning/index.js:148
 msgid ""
 "To use Android extensions, you'll need %(downloadLinkStart)sFirefox for Android%(downloadLinkEnd)s. To explore Firefox for desktop add-ons, please %(linkStart)svisit our desktop site%(linkEnd)s."
 msgstr ""
 
-#: src/amo/components/GetFirefoxButton/index.js:129
+#: src/amo/components/GetFirefoxButton/index.js:146
 msgid "Download Firefox and get the theme"
 msgstr "Firefox’u indir ve temayı edin"
 
-#: src/amo/components/GetFirefoxButton/index.js:130
+#: src/amo/components/GetFirefoxButton/index.js:147
 msgid "Download Firefox and get the extension"
 msgstr "Firefox’u indir ve uzantıyı yükle"
 
-#: src/amo/components/GetFirefoxButton/index.js:134
+#: src/amo/components/GetFirefoxButton/index.js:151
 msgid "Download the new Firefox and get the theme"
 msgstr "Yeni Firefox’u indir ve temayı edin"
 
-#: src/amo/components/GetFirefoxButton/index.js:135
+#: src/amo/components/GetFirefoxButton/index.js:152
 msgid "Download the new Firefox and get the extension"
 msgstr "Yeni Firefox’u indir ve uzantıyı yükle"
 
-#: src/amo/components/GetFirefoxButton/index.js:139
+#: src/amo/components/GetFirefoxButton/index.js:156
 msgid "Download Firefox"
 msgstr "Firefox’u indir"
 
-#: src/amo/components/GetFirefoxButton/index.js:142
+#: src/amo/components/GetFirefoxButton/index.js:159
 msgid "You'll need Firefox to use this theme"
 msgstr "Bu temayı kullanmak için Firefox’a ihtiyacınız var"
 
-#: src/amo/components/GetFirefoxButton/index.js:143
+#: src/amo/components/GetFirefoxButton/index.js:160
 msgid "You'll need Firefox to use this extension"
 msgstr "Bu uzantıyı kullanmak için Firefox’a ihtiyacınız var"
 
-#: src/amo/components/GetFirefoxButton/index.js:147
+#: src/amo/components/GetFirefoxButton/index.js:164
 msgid "You need an updated version of Firefox for this theme"
 msgstr "Bu temayı kullanmak için güncel bir Firefox’a ihtiyacınız var"
 
-#: src/amo/components/GetFirefoxButton/index.js:148
+#: src/amo/components/GetFirefoxButton/index.js:165
 msgid "You need an updated version of Firefox for this extension"
 msgstr "Bu uzantıyı kullanmak için güncel bir Firefox’a ihtiyacınız var"
 
@@ -1292,6 +1289,7 @@ msgstr "Gönderilerimi yönet"
 msgid "Reviewer Tools"
 msgstr "İnceleyici Araçları"
 
+#. "Firefox" should not be translated. :-)
 #: src/amo/components/Header/index.js:186
 msgid "Firefox Browser Add-ons"
 msgstr "Firefox Browser Eklentileri"
@@ -1324,21 +1322,23 @@ msgstr "Profilimi düzenle"
 msgid "Get the extension"
 msgstr "Uzantıyı yükle"
 
+#. If uppercase does not work in your locale, change it to lowercase. This is used as a secondary heading.
 # If uppercase does not work in your locale, change it to lowercase.
-#: src/amo/components/HeroRecommendation/index.js:233
+#: src/amo/components/HeroRecommendation/index.js:231
 msgid "RECOMMENDED"
 msgstr "ÖNERİLEN"
 
-#: src/amo/components/HeroRecommendation/index.js:237
+#. If uppercase does not work in your locale, change it to lowercase. This is used as a secondary heading.
+#: src/amo/components/HeroRecommendation/index.js:234
 msgid "BY FIREFOX"
 msgstr "FIREFOX EKİBİNDEN"
 
 # If uppercase does not work in your locale,
-#: src/amo/components/HeroRecommendation/index.js:239
+#: src/amo/components/HeroRecommendation/index.js:236
 msgid "SPONSORED"
 msgstr "SPONSORLU"
 
-#: src/amo/components/HeroRecommendation/index.js:256
+#: src/amo/components/HeroRecommendation/index.js:253
 msgid "Firefox only recommends extensions that meet our standards for security and performance."
 msgstr "Firefox yalnızca güvenlik ve performans standartlarımızı karşılayan uzantıları önerir."
 
@@ -1632,71 +1632,29 @@ msgid_plural "Read all %(total)s three-star reviews"
 msgstr[0] "Üç yıldızlı incelemeyi oku"
 msgstr[1] "%(total)s üç yıldızlı incelemenin hepsini oku"
 
-#: src/amo/components/ReportAbuseButton/index.js:119
+#: src/amo/components/ReportAbuseButton/index.js:44
 msgid "You reported this add-on"
 msgstr "Bu eklentiyi rapor ettiniz"
 
-#: src/amo/components/ReportAbuseButton/index.js:123
+#: src/amo/components/ReportAbuseButton/index.js:48
 msgid "We have received your report. Thanks for letting us know about your concerns with this add-on."
 msgstr "Raporunuzu aldık. Bu eklenti ile ilgili endişelerinizi bize bildirdiğiniz için teşekkürler."
 
-#: src/amo/components/ReportAbuseButton/index.js:129 src/amo/components/ReportUserAbuse/index.js:188
-msgid "We can't respond to every abuse report but we'll look into this issue."
-msgstr "Her suistimal raporuna ayrı ayrı yanıt veremiyoruz ama bu konuyu inceleyeceğiz."
-
-#: src/amo/components/ReportAbuseButton/index.js:138
-msgid "If you think this add-on violates %(linkTagStart)sMozilla's add-on policies%(linkTagEnd)s or has security or privacy issues, please report these issues to Mozilla using this form."
-msgstr ""
-"Bu eklentinin %(linkTagStart)sMozilla'nın eklenti politikalarını%(linkTagEnd)s ihlal ettiğini veya güvenlik/gizlilik sorunları olduğunu düşünüyorsanız lütfen bu formu kullanarak bu sorunları "
-"Mozilla'ya bildirin."
-
-#: src/amo/components/ReportAbuseButton/index.js:151
+#: src/amo/components/ReportAbuseButton/index.js:70
 msgid "Report this add-on"
 msgstr "Bu eklentiyi rapor et"
 
-#: src/amo/components/ReportAbuseButton/index.js:193
-msgid "Please don't use this form to report bugs or request add-on features; this report will be sent to Mozilla and not to the add-on developer."
-msgstr "Hataları bildirmek veya özellik talep etmek için bu formu kullanmayın. Bu rapor eklenti geliştiricisine değil, Mozilla’ya gönderilir."
-
-#: src/amo/components/ReportAbuseButton/index.js:206 src/amo/components/ReportUserAbuse/index.js:169
-msgid "Send abuse report"
-msgstr "Suistimal raporu gönder"
-
-#: src/amo/components/ReportAbuseButton/index.js:207 src/amo/components/ReportUserAbuse/index.js:170
-msgid "Sending abuse report"
-msgstr "Suistimal raporu gönderiliyor"
-
-#: src/amo/components/ReportAbuseButton/index.js:209
-msgid "Dismiss"
-msgstr "Görmezden gel"
-
-#: src/amo/components/ReportAbuseButton/index.js:210
-msgid "Explain how this add-on is violating our policies."
-msgstr "Bu eklentinin ilkelerimizi ne şekilde ihlal ettiğini açıklayın."
-
-#: src/amo/components/ReportUserAbuse/index.js:122 src/amo/components/ReportUserAbuse/index.js:129
-msgid "Report this user"
-msgstr "Bu kullanıcıyı rapor et"
-
-#: src/amo/components/ReportUserAbuse/index.js:136
-msgid "If you think this user is violating %(linkTagStart)sMozilla's Add-on Policies%(linkTagEnd)s, please report this user to Mozilla."
-msgstr "Bu kullanıcının %(linkTagStart)sMozilla Eklenti İlkelerini%(linkTagEnd)s ihlal ettiğini düşünüyorsanız lütfen bu kullanıcıyı Mozilla'ya bildirin."
-
-#: src/amo/components/ReportUserAbuse/index.js:152
-msgid "Please don't use this form to report bugs or contact this user; your report will only be sent to Mozilla and not to this user."
-msgstr "Lütfen hataları bildirmek veya bu kullanıcıyla iletişime geçmek için bu formu kullanmayın. Raporunuz bu kullanıcıya değil, yalnızca Mozilla'ya gönderilecektir."
-
-#: src/amo/components/ReportUserAbuse/index.js:166
-msgid "Explain how this user is violating our policies."
-msgstr "Bu kullanıcının ilkelerimizi nasıl ihlal ettiğini açıklayın."
-
-#: src/amo/components/ReportUserAbuse/index.js:178
+#: src/amo/components/ReportUserAbuse/index.js:48
 msgid "You reported this user"
 msgstr "Bu kullanıcıyı rapor ettiniz"
 
-#: src/amo/components/ReportUserAbuse/index.js:182
+#: src/amo/components/ReportUserAbuse/index.js:52
 msgid "We have received your report. Thanks for letting us know about your concerns with this user."
 msgstr "Raporunuzu aldık. Bu kullanıcı ile ilgili endişelerinizi bize bildirdiğiniz için teşekkürler."
+
+#: src/amo/components/ReportUserAbuse/index.js:64
+msgid "Report this user"
+msgstr "Bu kullanıcıyı rapor et"
 
 #: src/amo/components/Search/index.js:139 src/amo/components/SearchResults/index.js:71
 msgid "Search results"
@@ -2122,7 +2080,7 @@ msgstr "Android için Firefox ile uyumlu uzantıları bulmak için %(linkStart)s
 
 #: src/amo/components/WrongPlatformWarning/index.js:121
 msgid "This listing is not intended for this platform. %(linkStart)sBrowse add-ons for Firefox for desktop%(linkEnd)s."
-msgstr ""
+msgstr "Bu liste bu platform için tasarlanmamıştır. %(linkStart)sBilgisayarlar için Firefox eklentilerine göz atabilirsiniz%(linkEnd)s."
 
 #: src/amo/components/WrongPlatformWarning/index.js:89
 msgid "Add-ons are not compatible with Firefox for iOS. Try installing them on Firefox for desktop."
@@ -2346,47 +2304,47 @@ msgstr "%(categoryName)s kategorisindeki temalar"
 msgid "Extensions in %(categoryName)s"
 msgstr "%(categoryName)s kategorisindeki uzantılar"
 
-#: src/amo/pages/Collection/index.js:403
+#: src/amo/pages/Collection/index.js:402
 msgid "Do you really want to delete this collection?"
 msgstr "Bu koleksiyonu gerçekten silmek istiyor musunuz?"
 
-#: src/amo/pages/Collection/index.js:406
+#: src/amo/pages/Collection/index.js:405
 msgid "Delete this collection"
 msgstr "Bu koleksiyonu sil"
 
-#: src/amo/pages/Collection/index.js:426
+#: src/amo/pages/Collection/index.js:421
 msgid "You reported this collection"
 msgstr "Bu koleksiyonu rapor ettiniz"
 
-#: src/amo/pages/Collection/index.js:430
+#: src/amo/pages/Collection/index.js:425
 msgid "We have received your report. Thanks for letting us know about your concerns with this collection."
 msgstr "Raporunuzu aldık. Bu koleksiyonla ilgili endişelerinizi bize bildirdiğiniz için teşekkürler."
 
-#: src/amo/pages/Collection/index.js:444
+#: src/amo/pages/Collection/index.js:439
 msgid "Report this collection"
 msgstr "Bu koleksiyonu rapor et"
 
-#: src/amo/pages/Collection/index.js:463
+#: src/amo/pages/Collection/index.js:458
 msgid "Log in to create a collection"
 msgstr "Koleksiyon oluşturmak için giriş yapın"
 
-#: src/amo/pages/Collection/index.js:464
+#: src/amo/pages/Collection/index.js:459
 msgid "Log in to edit this collection"
 msgstr "Koleksiyonu düzenlemek için giriş yapın"
 
-#: src/amo/pages/Collection/index.js:498
+#: src/amo/pages/Collection/index.js:493
 msgid "First, create your collection. Then you can add extensions and themes."
 msgstr "Öncelikle koleksiyonunuzu oluşturun. Sonra ona uzantı ve tema ekleyebilirsiniz."
 
-#: src/amo/pages/Collection/index.js:501
+#: src/amo/pages/Collection/index.js:496
 msgid "Search for extensions and themes to add to your collection."
 msgstr "Koleksiyonunuza ekleyebileceğiniz uzantıları ve temaları arayın."
 
-#: src/amo/pages/Collection/index.js:562
+#: src/amo/pages/Collection/index.js:557
 msgid "Download and create Firefox collections to keep track of favorite extensions and themes. Explore the %(collectionName)s—%(collectionDescription)s."
 msgstr "Sevdiğiniz uzantıları ve temaları takip etmek için Firefox koleksiyonlarını indirebilir ve oluşturabilirsiniz. %(collectionName)s—%(collectionDescription)s koleksiyonunu keşfedin."
 
-#: src/amo/pages/Collection/index.js:565
+#: src/amo/pages/Collection/index.js:560
 msgid "Download and create Firefox collections to keep track of favorite extensions and themes. Explore the %(collectionName)s."
 msgstr "Sevdiğiniz uzantıları ve temaları takip etmek için Firefox koleksiyonlarını indirebilir ve oluşturabilirsiniz. %(collectionName)s koleksiyonunu keşfedin."
 
@@ -2850,7 +2808,7 @@ msgstr "%(tag)s etiketli eklentiler"
 msgid "Submit feedback or report a user to Mozilla"
 msgstr ""
 
-#: src/amo/pages/UserFeedback/index.js:133 src/amo/pages/UserProfile/index.js:379
+#: src/amo/pages/UserFeedback/index.js:133 src/amo/pages/UserProfile/index.js:381
 msgid "User since"
 msgstr "Üyelik başlangıcı"
 
@@ -2902,31 +2860,32 @@ msgstr "%(user)s kullanıcı profili"
 msgid "User Profile"
 msgstr "Kullanıcı profili"
 
-#: src/amo/pages/UserProfile/index.js:364 src/amo/pages/UserProfileEdit/index.js:725
+#: src/amo/pages/UserProfile/index.js:366 src/amo/pages/UserProfileEdit/index.js:725
 msgid "Location"
 msgstr "Konum"
 
-#: src/amo/pages/UserProfile/index.js:372 src/amo/pages/UserProfileEdit/index.js:740
+#: src/amo/pages/UserProfile/index.js:374 src/amo/pages/UserProfileEdit/index.js:740
 msgid "Occupation"
 msgstr "Meslek"
 
-#: src/amo/pages/UserProfile/index.js:389
+#: src/amo/pages/UserProfile/index.js:391
 msgid "Number of add-ons"
 msgstr "Eklenti sayısı"
 
-#: src/amo/pages/UserProfile/index.js:395
+#: src/amo/pages/UserProfile/index.js:397
 msgid "Average rating of developer’s add-ons"
 msgstr "Geliştiricinin eklentilerinin ortalama puanı"
 
-#: src/amo/pages/UserProfile/index.js:410 src/amo/pages/UserProfileEdit/index.js:762
+#: src/amo/pages/UserProfile/index.js:412 src/amo/pages/UserProfileEdit/index.js:762
 msgid "Biography"
 msgstr "Biyografi"
 
-#: src/amo/pages/UserProfile/index.js:434
+#: src/amo/pages/UserProfile/index.js:436
 msgid "Edit profile"
 msgstr "Profilimi düzenle"
 
-#: src/amo/pages/UserProfile/index.js:447
+#. This action allows an admin to maintain a user.
+#: src/amo/pages/UserProfile/index.js:449
 msgid "Admin user"
 msgstr "Yönetici"
 
@@ -3038,6 +2997,7 @@ msgstr "Profil"
 msgid "This field is required"
 msgstr "Bu alan gereklidir"
 
+#. the star is used to indicate a required field
 #: src/amo/pages/UserProfileEdit/index.js:687
 msgid "Display Name *"
 msgstr "Görünen ad *"
@@ -3125,6 +3085,7 @@ msgstr "Abonelikten çık"
 msgid "You are successfully unsubscribed!"
 msgstr "Başarıyla abonelikten ayrıldınız!"
 
+#. a list of notifications will be displayed under this prompt.
 # a list of notifications will be displayed under this prompt.
 #: src/amo/pages/UsersUnsubscribe/index.js:125
 msgid "The email address %(strongStart)s%(email)s%(strongEnd)s will no longer get messages when:"
@@ -3138,16 +3099,19 @@ msgstr "%(linkStart)sProfilinizi düzenleyerek%(linkEnd)s bildirim ayarlarınız
 msgid "(no name)"
 msgstr "(adsız)"
 
+#. This is application compatibility information, such as "firefox 41 and later"
 # This is application compatibility information, such as "firefox 41 and later"
 #: src/amo/reducers/versions.js:305
 msgid "%(application)s %(minVersion)s and later"
 msgstr "%(application)s %(minVersion)s ve üstü"
 
+#. This is application compatibility information, such as "firefox 41 to 45"
 # This is application compatibility information, such as "firefox 41 to 45"
 #: src/amo/reducers/versions.js:309
 msgid "%(application)s %(minVersion)s to %(maxVersion)s"
 msgstr "%(application)s %(minVersion)s - %(maxVersion)s arası"
 
+#. This contains a comma-delimited list of applications and versions, such as "android 41 and later, firefox 42 and later"
 # This contains a comma-delimited list of applications and versions, such as "android 41 and later, firefox 42 and later"
 #: src/amo/reducers/versions.js:329
 msgid "Works with %(listOfApplicatonsAndVersions)s"
@@ -3208,6 +3172,59 @@ msgstr "eklentimin uyumluluğu yükseltilemediğinde"
 #: src/amo/utils/notifications.js:26
 msgid "my add-on's compatibility is upgraded successfully"
 msgstr "eklentimin uyumluluğu başarıyla yükseltildiğinde"
+
+#~ msgid "This is a bug report or support request"
+#~ msgstr "Bu bir hata raporu veya destek isteği"
+
+#~ msgid "Flagged as a bug report or support request"
+#~ msgstr "Hata raporu veya destek isteği olarak işaretlendi"
+
+#~ msgid "This contains inappropriate language"
+#~ msgstr "Uygunsuz bir dil içeriyor"
+
+#~ msgid "Flagged for inappropriate language"
+#~ msgstr "Uygunsuz dil olarak işaretlendi"
+
+#~ msgid "Log in to flag this response"
+#~ msgstr "Bu yanıtı rapor etmek için giriş yapın"
+
+#~ msgid "Log in to flag this review"
+#~ msgstr "Bu incelemeyi rapor etmek için giriş yapın"
+
+#~ msgid "This is spam"
+#~ msgstr "Spam"
+
+#~ msgid "We can't respond to every abuse report but we'll look into this issue."
+#~ msgstr "Her suistimal raporuna ayrı ayrı yanıt veremiyoruz ama bu konuyu inceleyeceğiz."
+
+#~ msgid "If you think this add-on violates %(linkTagStart)sMozilla's add-on policies%(linkTagEnd)s or has security or privacy issues, please report these issues to Mozilla using this form."
+#~ msgstr ""
+#~ "Bu eklentinin %(linkTagStart)sMozilla'nın eklenti politikalarını%(linkTagEnd)s ihlal ettiğini veya güvenlik/gizlilik sorunları olduğunu düşünüyorsanız lütfen bu formu kullanarak bu sorunları "
+#~ "Mozilla'ya bildirin."
+
+#~ msgid "Please don't use this form to report bugs or request add-on features; this report will be sent to Mozilla and not to the add-on developer."
+#~ msgstr "Hataları bildirmek veya özellik talep etmek için bu formu kullanmayın. Bu rapor eklenti geliştiricisine değil, Mozilla’ya gönderilir."
+
+#~ msgid "Send abuse report"
+#~ msgstr "Suistimal raporu gönder"
+
+#~ msgid "Sending abuse report"
+#~ msgstr "Suistimal raporu gönderiliyor"
+
+#~ msgid "Dismiss"
+#~ msgstr "Görmezden gel"
+
+#~ msgid "Explain how this add-on is violating our policies."
+#~ msgstr "Bu eklentinin ilkelerimizi ne şekilde ihlal ettiğini açıklayın."
+
+#~ msgid "If you think this user is violating %(linkTagStart)sMozilla's Add-on Policies%(linkTagEnd)s, please report this user to Mozilla."
+#~ msgstr "Bu kullanıcının %(linkTagStart)sMozilla Eklenti İlkelerini%(linkTagEnd)s ihlal ettiğini düşünüyorsanız lütfen bu kullanıcıyı Mozilla'ya bildirin."
+
+#~ msgid "Please don't use this form to report bugs or contact this user; your report will only be sent to Mozilla and not to this user."
+#~ msgstr "Lütfen hataları bildirmek veya bu kullanıcıyla iletişime geçmek için bu formu kullanmayın. Raporunuz bu kullanıcıya değil, yalnızca Mozilla'ya gönderilecektir."
+
+#~ msgid "Explain how this user is violating our policies."
+#~ msgstr "Bu kullanıcının ilkelerimizi nasıl ihlal ettiğini açıklayın."
 
 #~ msgid "To use these add-ons, you'll need to %(linkStart)sdownload Firefox%(linkEnd)s"
 #~ msgstr "Bu eklentileri kullanmak için %(linkStart)sFirefox’u indirmeniz%(linkEnd)s gerekiyor"
